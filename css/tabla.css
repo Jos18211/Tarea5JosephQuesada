@@ -1,0 +1,79 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+  
+  
+.tablaArticulo{
+    width: 100%;
+
+}
+
+
+.imgTabla{
+
+    margin: 0px 0px 0px 0px; 
+    float:inherit;
+    padding: 0px 0px 0px 0px ; 
+    border: 1px solid #ddd;
+    height:6vw;
+    width:6vw;
+}
+
+.seleccion{
+width: 100%;
+align-items:center;
+padding-top: 0%;
+}
+
+.caption {
+
+
+height: 35px;
+text-align: center;
+vertical-align: central;
+padding: 7px;
+border-bottom: 1px solid #ddd;
+background-color: #53C7FD;
+font: 1.5vw'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+color: #FFF;
+}
+
+.seleccion th {
+
+border-bottom: 1px solid #ddd;
+background-color:#E5017D;
+color: white;
+}
+
+
+
+.seleccion .tdCentrado {
+
+vertical-align: central;
+align-content:center;
+border-bottom: 1px solid #ddd;
+}
+
+.seleccion tr:nth-child(even) {
+background-color:#C8EAE9;
+}
+
+.seleccion tbody tr:hover {
+background-color:#80E804;
+color:white;
+font-size:large;
+}
+
+
+.seleccion tfoot {
+
+border-bottom: 1px solid #ddd;
+background-color: #E5017D;
+color: white;
+}
+
+
+
+
